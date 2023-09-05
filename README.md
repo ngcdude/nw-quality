@@ -1,10 +1,12 @@
 # nw-quality
 Tool created to monitor latency and packet drops from terminal
 
-# help
-usage: monitor_service.py [-h] [--start] [--stop] [--status] [--reset]
+## command
 
-Monitor internet connectivity and record latency.
+Monitor internet connectivity and record latency
+
+```
+monitor_service.py [-h] [--start] [--stop] [--status] [--reset]
 
 options:
   -h, --help  show this help message and exit
@@ -12,9 +14,11 @@ options:
   --stop      Stop data collection
   --status    Query monitoring status
   --reset     Reset stored data
+```
 
-# example use
+## example use
 
+```
 python3 monitor_service.py --start
 [data collection starts through pings]
 ...
@@ -37,14 +41,4 @@ python3 monitor_service.py --reset
 [user wants a new data set, the old one is deleted]
 python3 monitor_service.py --start
 [user starts the new data collection]
-
-
-
-monitor_service.py [-h] [--start] [--stop] [--status] [--reset]
-
-monitor_service.py [-h] [--start] [--stop] [--status] [--reset]
-
-monitor_service.py [-h] [--start] [--stop] [--status] [--reset]
-
-monitor_service.py [-h] [--start] [--stop] [--status] [--reset]
 
